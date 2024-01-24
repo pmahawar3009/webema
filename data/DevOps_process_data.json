@@ -1,0 +1,416 @@
+{
+    "Source Control": [
+        {
+            "key": 1,
+            "question": "Source code, application configurations, environment configurations, build scripts are into version control.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 2,
+            "question": "Code commit is frequent (3-4 times per day per developer).",
+            "level": "Base",
+            "current": "N"
+        },
+        {
+            "key": 3,
+            "question": "Code is local built with latest code, unit tested and code reviewed before commit (pre-tested commit).",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 4,
+            "question": "Standard process (branching, tagging, versioning and merging etc.) is defined.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 5,
+            "question": "Commits (change) are tied to tasks.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 6,
+            "question": "Application and environment configurations are externalized from code, and each are maintained separate.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 7,
+            "question": "DB scripts (schema, data) are in version control.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 8,
+            "question": "Mainline update is frequent.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 9,
+            "question": "Minimal branching.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 10,
+            "question": "Infrastructure (environment provisioning) as code into version control.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ],
+    "Build": [
+        {
+            "key": 11,
+            "question": "Official builds are performed on separate build machines.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 12,
+            "question": "Self service and full nightly builds (at least once) are performed.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 13,
+            "question": "Standard build process (compile, SCA, UT, FT and KPIs) is defined for local and central build.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 14,
+            "question": "Common build scripts for local as well as central build (and also include SCA, UT, FT and meet KPIs). Pre-Tested Build.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 15,
+            "question": "Code is polled from source control and build on commit.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 16,
+            "question": "Build artefacts are managed through artifactory repository with versioning.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 17,
+            "question": "Build notifications configured (success as well as failures for KPIs).",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 18,
+            "question": "Build dashboard is defined providing built status and KPIs details.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 19,
+            "question": "Dependencies are managed in a repository.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 20,
+            "question": "Versioning and tagging of code is automated, and is part of the build process.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 21,
+            "question": "Triggered builds (no polling) for each code commit into version control.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 22,
+            "question": "Distributed builds on build cluster.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 23,
+            "question": "Build environment on VMs.",
+            "level": "Expert",
+            "current": "N"
+        },
+        {
+            "key": 24,
+            "question": "Gated commits.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ],
+    "Test Management": [
+        {
+            "key": 25,
+            "question": "Automated UT is part of the local and central build.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 26,
+            "question": "Standard testing process (UT, FT, IT, PT, UAT and KPIs) is defined.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 27,
+            "question": "Peer-reviews.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 28,
+            "question": "KPIs are measured with significant coverage.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 29,
+            "question": "Notifications are configured for each kind of testing.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 30,
+            "question": "Mocks are used for external test dependencies.",
+            "level": "Beginner",
+            "current": "Y"
+        },
+        {
+            "key": 31,
+            "question": "UT Smoke Testing on each commit and part of build.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 32,
+            "question": "Functional testing automation.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 33,
+            "question": "Dynamic functional test coverage.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 34,
+            "question": "Integrated management and maintenance of the test data.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 35,
+            "question": "Service Virtualisation capabilities built.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 36,
+            "question": "IT is automated and performed on each commit, and is not delayed to post development.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 37,
+            "question": "Non-Functional testing is automated.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 38,
+            "question": "Moderate UAT automation.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 39,
+            "question": "Maximum UAT automation with significant coverage.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ],
+    "Deployment": [
+        {
+            "key": 40,
+            "question": "Full scripted deployments.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 41,
+            "question": "Full scripted environment provisioning.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 42,
+            "question": "Build artefacts are not environment specific.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 43,
+            "question": "Standard environment provisioning and deployment process is defined.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 44,
+            "question": "Push button deployment to test environments.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 45,
+            "question": "Notifications and logging is configured in deployment workflow.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 46,
+            "question": "Automated provisioning and deployment to test environments.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 47,
+            "question": "Standard common deployment scripts and across all environments.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 48,
+            "question": "Push button deployment to pre-prod environment.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 49,
+            "question": "Automated provisioning and deployment to pre-prod environment.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 50,
+            "question": "Automated provisioning and deployment of database.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 51,
+            "question": "Push button deployment to production environment.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 52,
+            "question": "Co-ordinated multi-tier orchestrated deployment (governance with workflow)",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 53,
+            "question": "Promote VM or Container for deployment.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 54,
+            "question": "Zero touch deployment up to production.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ],
+    "Release Management": [
+        {
+            "key": 55,
+            "question": "Releases are frequent and so not lengthy.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 56,
+            "question": "Standard process for release management (covering change request and approval) is defined.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 57,
+            "question": "Tracking from requirements to release is built within delivery pipeline.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 58,
+            "question": "Built in tracing built within delivery pipeline and release notes are auto generated.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 59,
+            "question": "Feature based development and releases.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 60,
+            "question": "Self service roll in and roll back built within delivery pipeline.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ],
+    "Monitoring": [
+        {
+            "key": 61,
+            "question": "Single view dashboard is defined that covers all activities within delivery pipeline.",
+            "level": "Base",
+            "current": "Y"
+        },
+        {
+            "key": 62,
+            "question": "Tools generated and custom reports are visible to different stakeholders.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 63,
+            "question": "Minimal quantitative metrics.",
+            "level": "Beginner",
+            "current": "N"
+        },
+        {
+            "key": 64,
+            "question": "Historical and real time cross function reports are visible.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 65,
+            "question": "Full quantitative metrics.",
+            "level": "Intermediate",
+            "current": "N"
+        },
+        {
+            "key": 66,
+            "question": "Cross function report trending.",
+            "level": "Advanced",
+            "current": "N"
+        },
+        {
+            "key": 67,
+            "question": "Cross function report analysis.",
+            "level": "Expert",
+            "current": "N"
+        }
+    ]
+}

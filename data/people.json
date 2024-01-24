@@ -1,0 +1,28 @@
+{
+	"columns": [
+		{
+			"id": "theme", "label": "Theme", "minWidth": 100
+		},
+		{
+			"id": "stageOfAdoption", "label": "Stage Of Adoption", "minWidth": 120
+		},
+		{
+			"id": "enablerTitle", "label": "Enabler Title", "minWidth": 120
+		},
+		{
+			"id": "enablerDescription", "label": "Enabler Description", "minWidth": 190
+		},
+		{
+			"id": "question", "label": "Questions", "minWidth": 170
+		},
+		{
+			"id": "resourceTitle", "label": "Resource Title", "minWidth": 170
+		},
+		{
+			"id": "status", "label": "Status", "minWidth": 170
+		},
+        {
+			"id": "notes", "label": "Notes", "minWidth": 170
+		}
+	]
+}

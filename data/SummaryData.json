@@ -1,0 +1,19 @@
+{
+    "summaryData": [
+    {
+        "name": "DevOpsPeople",
+        "Average": 4,
+        "Target": 5
+    },
+    {
+        "name": "DevOpsProcess",
+        "Average": 3,
+        "Target": 5
+    },
+    {
+        "name": "CICD",
+        "Average": 2,
+        "Target": 5
+    }
+]
+}

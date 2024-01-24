@@ -1,0 +1,752 @@
+{
+    "Configuration management": [
+        {
+            "key": 1,
+            "question": "Is source code under version control?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 2,
+            "question": "Do you have a well defined and documented Branching, Tagging and Merging strategy ?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 3,
+            "question": "Code commit is frequent (3-4 times per day per developer)?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 4,
+            "question": "Do you have Unit Testing, Code quality checks before committing code?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 5,
+            "question": "Are code commits tagged to a particular defect/task",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 6,
+            "question": "Are test linked to a defined requirements or story",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 7,
+            "question": "Do you store the binary artefacts in a versioned source repository",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 8,
+            "question": "Are application and environment configurations are externalized from code, and each are maintained separate?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 9,
+            "question": "Do you use a version control mechanism for all elements of your delivery pipeline?",
+            "associatedLevel": "L4",
+            "scored": "No",
+            "levelOfAdoption": "Not applicable",
+            "scoreBasic": 0,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 10,
+            "question": "DB scripts (schema, data) are in version control?",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "Basic",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 11,
+            "question": "Do you have \"Infrastructure as Code\" stored in the Source Control System",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "Intermediate",
+            "scoreBasic": 1,
+            "scoreIntermediate": 1,
+            "scoreAdvanced": 0
+        }
+    ],
+    "Continuous Integration": [
+        {
+            "key": 12,
+            "question": "Do you have standard processes for compile, Unit testing, code quality etc.",
+            "associatedLevel": "L1",
+            "scored": "No",
+            "levelOfAdoption": "NA",
+            "scoreBasic": 0,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 13,
+            "question": "Dependencies are managed in a repository?",
+            "associatedLevel": "L1",
+            "scored": "No",
+            "levelOfAdoption": "NA",
+            "scoreBasic": 0,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 14,
+            "question": "Are toll gates defined in the CI pipeline?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 15,
+            "question": "Is Code quality testing integrated with the CI Tool",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 16,
+            "question": "Is Notification enabled for build success status",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "n",
+            "scoreBasic": 0,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 17,
+            "question": "Self service and full nightly builds (at least once) are performed?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 18,
+            "question": "Is Unit testing integrated with the CI Tool",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 19,
+            "question": "Is Functional testing integrated with the CI Tool",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 20,
+            "question": "Do you have build scripts available for automated builds",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 21,
+            "question": "Do you have a mechanism for triggered builds through source control",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 22,
+            "question": "Do you version builds based on tags and is it automated",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 23,
+            "question": "Are manual code reviews captured and integrated with the CI Tool",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 24,
+            "question": "Build dashboard is defined providing built status and KPIs details.",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 25,
+            "question": "Distributed builds on build cluster.",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 26,
+            "question": "Has the Agile Team full control over the CI?",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 27,
+            "question": "Build environment on VMs.",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        }
+    ],
+    "Continuous Testing": [
+        {
+            "key": 28,
+            "question": "Are the test results visible easily to the release manager for Go/No-Go decisions",
+            "associatedLevel": "L2",
+            "scored": "No",
+            "levelOfAdoption": "NA",
+            "scoreBasic": 0,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 29,
+            "question": "Are peer reviews conducted regularly",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 30,
+            "question": "Is the team using a test management tool?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 31,
+            "question": "Is the team using a bug tracking tool?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 32,
+            "question": "Are Test cases written upfront with requirements/user stories?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 33,
+            "question": "Are necessary dedicated test environment made available as needed?",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 34,
+            "question": "Do you have clear traceability between Defect Mgt and Build and Release?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 35,
+            "question": "Are standard processes and metrics defined for testing",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 36,
+            "question": "Manual unit testing with coverage decided as per policy guideline from customer/organisation",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 37,
+            "question": "Is the team using security testing tools?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 38,
+            "question": "Is the team using performance/load testing tools?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 39,
+            "question": "Are tools available to generate test data and manage test environment?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 40,
+            "question": "Does the smoke test happen for every build?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 41,
+            "question": "Is Service Virtualization technologies implemented?",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 42,
+            "question": "Multiple test environment configurations are available within 30 - 60 mins",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 43,
+            "question": "Is Functional testing automated and integrated in the Continuous Integration Pipeline on each commit",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 44,
+            "question": "Notifications are implemented for testing feedback",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 45,
+            "question": "Is Performance testing automated and integrated in the Continuous Integration Pipeline",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 46,
+            "question": "Are there tools implemented for automated Unit/Acceptance testing using BDD (behaviour-driven development)",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 47,
+            "question": "Are the non-functional testing automated",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 48,
+            "question": "Automated unit testing with significant coverage",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 49,
+            "question": "Is User Acceptance Testing  automated",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 50,
+            "question": "Integrated management and maintenance of the test data",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        }
+    ],
+    "Continuous Delivery": [
+        {
+            "key": 51,
+            "question": "Full scripted deployments.",
+            "associatedLevel": "L1",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 52,
+            "question": "Full scripted environment provisioning.",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 53,
+            "question": "Build artefacts are not environment specific.",
+            "associatedLevel": "L2",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 54,
+            "question": "Standard environment provisioning and deployment process is defined.",
+            "associatedLevel": "L3",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 55,
+            "question": "Push button deployment to test environments.",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 56,
+            "question": "Notifications and logging is configured in deployment workflow.",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 57,
+            "question": "Standard common deployment scripts and across all environments.",
+            "associatedLevel": "L4",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 58,
+            "question": "Push button deployment to pre-prod environment.",
+            "associatedLevel": "L4",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 59,
+            "question": "Automated provisioning and deployment of database.",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 60,
+            "question": "Push button deployment to production environment.",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 61,
+            "question": "Co-ordinated multi-tier orchestrated deployment (governance with workflow)",
+            "associatedLevel": "L5",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 62,
+            "question": "Promote VM or Container for deployment.",
+            "associatedLevel": "L5",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 63,
+            "question": "Zero touch deployment unto production.",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 64,
+            "question": "Do you have built-in capabilities  to rollback to any of your previous code versions in any of your environments",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 65,
+            "question": "Are all pre-productive environments integrated in the continuous deployment schedule?",
+            "associatedLevel": "L5",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        }
+    ],
+    "Continuous Monitoring": [
+        {
+            "key": 66,
+            "question": "Tools generated and custom reports are visible to different stakeholders.",
+            "associatedLevel": "L2",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 67,
+            "question": "Do you have Performance monitoring tools implemented to give an insight of application performance",
+            "associatedLevel": "L3",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 68,
+            "question": "Is Application and Infrastructure monitoring implemented across environments?",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 69,
+            "question": "Are log collection, investigation, troubleshooting, normalization, categorization in place",
+            "associatedLevel": "L3",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 70,
+            "question": "Is there a dashboard for log reporting",
+            "associatedLevel": "L3",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 71,
+            "question": "Do you have a reporting mechanism in place for getting integrated reports from the DevOps tools",
+            "associatedLevel": "L3",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 72,
+            "question": "Do you have tools for pattern detection",
+            "associatedLevel": "L4",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 73,
+            "question": "Are you able to run dynamic queries and have anomaly detection",
+            "associatedLevel": "L4",
+            "scored": "yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        },
+        {
+            "key": 74,
+            "question": "Do you have a continuous improvement process based on the metrics from monitoring",
+            "associatedLevel": "L5",
+            "scored": "Yes",
+            "levelOfAdoption": "b",
+            "scoreBasic": 1,
+            "scoreIntermediate": 0,
+            "scoreAdvanced": 0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{ "spiderChart": [
+    {
+      "subject": "Culture",
+      "average": 1.25,
+      "target": 5
+    },
+    {
+      "subject": "Automation",
+      "average": 3.8,
+      "target": 5
+    },
+    {
+      "subject": "Collaboration",
+      "average": 3.5,
+      "target": 5
+    },
+    {
+      "subject": "Geography",
+      "average": 4.2,
+      "target": 5
+    },
+    {
+      "subject": "Metrics",
+      "average": 5,      
+      "target": 5
+    },
+    {
+      "subject": "Sharing",
+      "average": 4.5,
+      "target": 5
+    }
+  ]}

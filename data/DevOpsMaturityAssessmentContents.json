@@ -1,0 +1,42 @@
+{
+"intro": "A DevOps maturity model is a tool that helps you assess your current state and identify you gaps and goals for improvement",
+"purpose":{
+    "title":"Purpose",
+    "details":"The purpose of this assessment is to ascertain the people, process and technology related maturity focusing on :",
+    "options":["Speed", "Value for Money and", "Quality"]
+},
+"objective":{
+    "title":"Objective",
+    "detailOne": "The overall objective is to ascertain today's and tomorrow's position covering people, process and technology. The intent is not to provide an all encompassing assessment but a view on the critical aspects.",
+    "detailTwo":"The main focus of this assesment is on:",
+    "mainFocuses": ["How Teams work together", "How automated and effective the Route to Live is", "How stable and effective the underlying Infrastructure is"]
+},
+"keyQuestion":"What are the key areas of assessment to consider when trying to speed up, save cost and increase quality ?",
+"background":{
+    "title": "Background",
+    "detail":"To speed up, to save cost whilst increasing quality an organisation has to-",
+    "options":["Maximise automation covering all aspects and all environments,", "Ensure that all teams work seamlessly together", "Ensure that all solution related aspects are covered / build-in from day-1 ", "Ensure that complexity is reduced to a minimum and that the overall landscape follows a clear blueprint and template", "Ensure that the application and infrastructure landscape follows a true service related approach", "Ensure that tools that help with planning, designing (architecture related), build, test, implement and operate are being used effectively"]
+},
+
+
+"aspects":{
+    "title": "Aspects",
+    "intro":  "To understand where the organisation is in terms of its DecOps maturity there are 4 aspect areas that require a detailed assessment:",
+    "process":{
+        "title": "Process related",
+        "options":["Source control", "Build", "Test management", "Deployment", "Release management", "Monitoring"]
+    },
+    "people":{
+        "title":"People related",
+        "options":["Culture", "Automation", "Collaboration", "Metrics", "Sharing", "Architecture"]
+    },
+    "CICD":{
+        "title":"Continuous Integration / Continuous Deployment",
+        "options":["Configuration Management", "Continuous Integration", "Continuous Testing", "Continuous Delivery", "Continuous Monitoring"]
+    },
+    "infrastructure":{
+        "title": "Infrastructure",
+        "options": ["Documentation", "Supportability", "Scalability", "Resilience", "Architecture Design"]
+    } 
+}
+}
